@@ -1,5 +1,7 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import MainSection from "@/components/MainSection";
+import TestimonialCrads from "@/components/TestimonialCrads";
+import UpcommingWebinar from "@/components/UpcommingWebinar";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { main } from "framer-motion/client";
 import Image from "next/image";
@@ -11,6 +13,8 @@ export default function Home() {
       <MainSection/>
       <FeaturedCourses />
       <WhyChooseUs />
+      <TestimonialCrads />
+      <UpcommingWebinar />
     </main>
   );
 }
