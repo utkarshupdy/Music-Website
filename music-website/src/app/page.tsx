@@ -1,4 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
+import Instructors from "@/components/Instructors";
 import MainSection from "@/components/MainSection";
 import TestimonialCrads from "@/components/TestimonialCrads";
 import UpcommingWebinar from "@/components/UpcommingWebinar";
@@ -15,6 +17,8 @@ export default function Home() {
       <WhyChooseUs />
       <TestimonialCrads />
       <UpcommingWebinar />
+      <Instructors />
+      <Footer />
     </main>
   );
 }
