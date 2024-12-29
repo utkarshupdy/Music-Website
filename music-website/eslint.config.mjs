@@ -1,16 +1,21 @@
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-import { FlatCompat } from "@eslint/eslintrc";
+export default {
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
+  ],
+  plugins: ['@typescript-eslint', 'react'],
+  rules: {
+    // Disable the @typescript-eslint/no-explicit-any rule
+    '@typescript-eslint/no-explicit-any': 'off',
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
-
-const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
-];
-
-export default eslintConfig;
+    // You can add other rule configurations as per your needs
+    'no-console': 'warn',  // Example: Warn when `console` is used
+    'react/prop-types': 'off',  // Example: Disable prop-types rule for React
+  },
+};

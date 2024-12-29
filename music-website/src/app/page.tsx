@@ -5,7 +5,7 @@ import MainSection from "@/components/MainSection";
 import TestimonialCrads from "@/components/TestimonialCrads";
 import UpcommingWebinar from "@/components/UpcommingWebinar";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Home() {
   return (
