@@ -1,4 +1,6 @@
-export default {
+import { defineConfig } from 'eslint-define-config';
+
+export default defineConfig({
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
@@ -18,4 +20,4 @@ export default {
     'no-console': 'warn',  // Example: Warn when `console` is used
     'react/prop-types': 'off',  // Example: Disable prop-types rule for React
   },
-};
+});

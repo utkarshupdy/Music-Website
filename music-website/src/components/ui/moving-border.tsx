@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import {
   motion,
   useAnimationFrame,
@@ -7,7 +7,6 @@ import {
   useMotionValue,
   useTransform,
 } from "framer-motion";
-import { useRef } from "react";
 import { cn } from "@/utils/cn";
 
 export function Button({
@@ -82,7 +81,8 @@ export const MovingBorder = ({
   ry?: string;
   [key: string]: any;
 }) => {
-  const pathRef = useRef<any>();
+  // Provide an initial value of `null` as the argument to useRef
+  const pathRef = useRef<SVGRectElement | null>(null); // Initialize with `null`
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
