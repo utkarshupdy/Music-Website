@@ -1,0 +1,125 @@
+{
+    "webinars": [
+      {
+        "id": 1,
+        "title": "Introduction to Data Science",
+        "description": "Explore data science fundamentals in this engaging webinar.",
+        "slug": "intro-to-data-science",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg"
+      },
+      {
+        "id": 2,
+        "title": "Mastering Web Design",
+        "description": "Learn advanced techniques in responsive and user-friendly web design.",
+        "slug": "mastering-web-design",
+        "isFeatured": false,
+        "image": "https://images.pexels.com/photos/315320/pexels-photo-315320.jpeg"
+      },
+      {
+        "id": 3,
+        "title": "Digital Marketing Trends in 2024",
+        "description": "Stay ahead in digital marketing with the latest trends and strategies.",
+        "slug": "digital-marketing-trends",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg"
+      },
+      {
+        "id": 4,
+        "title": "Building Strong Leadership Skills",
+        "description": "Gain insights into effective leadership practices.",
+        "slug": "strong-leadership-skills",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+      },
+      {
+        "id": 5,
+        "title": "Basics of Mobile App Development",
+        "description": "Learn the essential steps to develop your first mobile app.",
+        "slug": "mobile-app-development",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg"
+      },
+      {
+        "id": 6,
+        "title": "Career Growth in AI & ML",
+        "description": "Understand how AI and machine learning can shape your career.",
+        "slug": "career-growth-ai-ml",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg"
+      },
+      {
+        "id": 7,
+        "title": "Cybersecurity Challenges in 2024",
+        "description": "Learn how to tackle upcoming cybersecurity threats.",
+        "slug": "cybersecurity-challenges",
+        "isFeatured": false,
+        "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg"
+      },
+      {
+        "id": 8,
+        "title": "SEO for Beginners",
+        "description": "Master the fundamentals of search engine optimization.",
+        "slug": "seo-for-beginners",
+        "isFeatured": false,
+        "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+      },
+      {
+        "id": 9,
+        "title": "Economics Simplified",
+        "description": "Break down complex economic concepts into simple terms.",
+        "slug": "economics-simplified",
+        "isFeatured": false,
+        "image": "https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg"
+      },
+      {
+        "id": 10,
+        "title": "Introduction to Cloud Computing",
+        "description": "Discover the basics of cloud computing and its business applications.",
+        "slug": "intro-to-cloud-computing",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/547229/pexels-photo-547229.jpeg"
+      },
+      {
+        "id": 11,
+        "title": "The Art of Public Speaking",
+        "description": "Enhance your public speaking skills with practical tips and techniques.",
+        "slug": "art-of-public-speaking",
+        "isFeatured": false,
+        "image": "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg"
+      },
+      {
+        "id": 12,
+        "title": "Photography Essentials",
+        "description": "Learn how to take stunning photos with your camera or smartphone.",
+        "slug": "photography-essentials",
+        "isFeatured": false,
+        "image": "https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg"
+      },
+      {
+        "id": 13,
+        "title": "Basics of Graphic Design",
+        "description": "Get introduced to the principles of graphic design and visual communication.",
+        "slug": "basics-of-graphic-design",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/315320/pexels-photo-315320.jpeg"
+      },
+      {
+        "id": 14,
+        "title": "Building Scalable Web Applications",
+        "description": "Learn the best practices for building scalable and maintainable web apps.",
+        "slug": "scalable-web-apps",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg"
+      },
+      {
+        "id": 15,
+        "title": "Data Visualization Basics",
+        "description": "Create insightful and visually appealing data visualizations.",
+        "slug": "data-visualization-basics",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/3746317/pexels-photo-3746317.jpeg"
+      }
+    ]
+  }
+  

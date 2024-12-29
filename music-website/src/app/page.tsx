@@ -5,19 +5,27 @@ import MainSection from "@/components/MainSection";
 import TestimonialCrads from "@/components/TestimonialCrads";
 import UpcommingWebinar from "@/components/UpcommingWebinar";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import { main } from "framer-motion/client";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-      {/* <h1 className="text-2xl text-center">Tara aur Tarini</h1> */}
-      <MainSection/>
-      <FeaturedCourses />
-      <WhyChooseUs />
-      <TestimonialCrads />
-      <UpcommingWebinar />
-      <Instructors />
+      <MainSection />
+      <section id="featured-courses">
+        <FeaturedCourses />
+      </section>
+      <section id="why-choose-us">
+        <WhyChooseUs />
+      </section>
+      <section id="testimonials">
+        <TestimonialCrads />
+      </section>
+      <section id="upcoming-webinars">
+        <UpcommingWebinar />
+      </section>
+      <section id="instructors">
+        <Instructors />
+      </section>
       <Footer />
     </main>
   );

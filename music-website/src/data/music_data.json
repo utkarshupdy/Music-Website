@@ -2,103 +2,103 @@
     "courses": [
       {
         "id": 1,
-        "title": "Guitar Fundamentals",
-        "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-        "price": 99.99,
-        "instructor": "John Doe",
+        "title": "Mastering Data Science",
+        "slug": "mastering-data-science",
+        "description": "Dive deep into data analysis, machine learning, and AI with our comprehensive data science course.",
+        "price": 299.99,
+        "instructor": "Dr. Alice Roberts",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 2,
-        "title": "Piano for Beginners",
-        "slug": "piano-for-beginners",
-        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-        "price": 109.99,
-        "instructor": "Jane Smith",
-        "isFeatured": false,
-        "image": "/courses/piano.jpg" 
+        "title": "Introduction to Web Development",
+        "slug": "web-development-intro",
+        "description": "Learn the fundamentals of HTML, CSS, and JavaScript to build your first website.",
+        "price": 149.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 3,
-        "title": "Advanced Vocal Techniques",
-        "slug": "advanced-vocal-techniques",
-        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-        "price": 119.99,
-        "instructor": "Emily Johnson",
+        "title": "Digital Marketing Bootcamp",
+        "slug": "digital-marketing-bootcamp",
+        "description": "Master SEO, social media marketing, and email campaigns to boost your business.",
+        "price": 199.99,
+        "instructor": "Jane Smith",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 4,
-        "title": "Drumming Mastery",
-        "slug": "drumming-mastery",
-        "description": "Master the drums with our comprehensive course covering all skill levels.",
-        "price": 129.99,
-        "instructor": "Mike Brown",
-        "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+        "title": "Financial Planning for Professionals",
+        "slug": "financial-planning",
+        "description": "Learn how to manage your finances, invest smartly, and secure your future.",
+        "price": 99.99,
+        "instructor": "Michael Green",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 5,
-        "title": "Jazz Improvisation",
-        "slug": "jazz-improvisation",
-        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-        "price": 139.99,
-        "instructor": "Chris Davis",
-        "isFeatured": false,
-        "image": "/courses/jazz.jpg"
+        "title": "Python for Beginners",
+        "slug": "python-for-beginners",
+        "description": "Start coding with Python, one of the most versatile programming languages.",
+        "price": 129.99,
+        "instructor": "Emily Brown",
+        "isFeatured": true,
+        "image": "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 6,
-        "title": "Music Production Fundamentals",
-        "slug": "music-production-fundamentals",
-        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
-        "price": 149.99,
-        "instructor": "Alex Wilson",
+        "title": "Advanced Excel Techniques",
+        "slug": "advanced-excel-techniques",
+        "description": "Become an Excel power user with our hands-on advanced course.",
+        "price": 79.99,
+        "instructor": "Sarah Parker",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 7,
-        "title": "Songwriting Essentials",
-        "slug": "songwriting-essentials",
-        "description": "Learn the essentials of songwriting to express your musical creativity.",
-        "price": 159.99,
-        "instructor": "Samantha Miller",
+        "title": "JavaScript Essentials",
+        "slug": "javascript-essentials",
+        "description": "Master JavaScript and build dynamic web applications from scratch.",
+        "price": 149.99,
+        "instructor": "James Wilson",
         "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
+        "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 8,
-        "title": "Electronic Music Production",
-        "slug": "electronic-music-production",
-        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-        "price": 169.99,
-        "instructor": "Luke Harris",
-        "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "title": "Project Management Principles",
+        "slug": "project-management-principles",
+        "description": "Understand the key principles of project management for career growth.",
+        "price": 189.99,
+        "instructor": "Laura Adams",
+        "isFeatured": false,
+        "image": "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 9,
-        "title": "Classical Music History",
-        "slug": "classical-music-history",
-        "description": "Explore the rich history of classical music from its origins to the present day.",
-        "price": 179.99,
-        "instructor": "Grace Lee",
+        "title": "Graphic Design Basics",
+        "slug": "graphic-design-basics",
+        "description": "Learn to create stunning visuals with Adobe Photoshop and Illustrator.",
+        "price": 119.99,
+        "instructor": "Nathan Taylor",
         "isFeatured": false,
-        "image": "/courses/classical-music.jpg"
+        "image": "https://images.pexels.com/photos/1597776/pexels-photo-1597776.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 10,
-        "title": "Blues Guitar Techniques",
-        "slug": "blues-guitar-techniques",
-        "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-        "price": 189.99,
-        "instructor": "Ethan Moore",
-        "isFeatured": true,
-        "image": "/courses/blues.jpg"
+        "title": "AI and Machine Learning",
+        "slug": "ai-and-machine-learning",
+        "description": "Explore the foundations of AI and machine learning to build smart applications.",
+        "price": 299.99,
+        "instructor": "Olivia Martin",
+        "isFeatured": false,
+        "image": "https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ]
   }
